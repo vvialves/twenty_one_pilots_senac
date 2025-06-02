@@ -1,0 +1,47 @@
+footer {
+  background-color: #000; /* preto */
+  border-top: 2px solid #c9002b; /* borda neon vermelha */
+  padding-top: 10px;
+}
+
+#footer_items {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 8% 24px 8%;
+  align-items: center;
+  gap: 10px;
+  max-width: 1200px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+#copyright {
+  color: #fff9ea; /* bege claro */
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.social-media-buttons a {
+  color: #fff9ea;
+  font-size: 1.8rem;
+  margin-left: 16px;
+  transition: color 0.3s ease;
+}
+
+.social-media-buttons a:hover {
+  color: #c9002b;
+  text-shadow: 0 0 8px #c9002b;
+}
+
+@media screen and (max-width: 850px) {
+  #footer_items {
+    flex-direction: column;
+    gap: 20px;
+    padding-bottom: 16px;
+  }
+
+  .social-media-buttons a {
+    margin-left: 0;
+    font-size: 1.5rem;
+  }
+}

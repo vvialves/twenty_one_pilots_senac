@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://kit.fontawesome.com/SEU_KIT.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="styles/blurry.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <title>Blurryface</title>
+</head>
+
+<body>
+
+      <header>
+        <nav id="navbar">
+            <a href="index.html">
+                <img width="100" height="60" src="imagens/logo.png" alt="Logo">
+            </a>
+
+            <ul id="nav_list">
+                <li class="nav-item active"><a href="blurry.html">BlurryFace</a></li>
+                <li class="nav-item"><a href="trench.html">Trench</a></li>
+                <li class="nav-item"><a href="icy.html">Scaled and Icy</a></li>
+                <li class="nav-item"><a href="clancy.html">Clancy</a></li>
+                <li class="nav-item"><a href="lore.html">Lore</a></li>
+            </ul>
+
+
+            <button id="mobile_btn">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </nav>
+
+        <div id="mobile_menu">
+            <ul id="mobile_nav_list">
+                <li class="nav-item"><a href="blurry.html">BlurryFace</a></li>
+                <li class="nav-item"><a href="trench.html">Trench</a></li>
+                <li class="nav-item"><a href="icy.html">Scaled and Icy</a></li>
+                <li class="nav-item"><a href="clancy.html">Clancy</a></li>
+                <li class="nav-item"><a href="lore.html">Lore</a></li>
+            </ul>
+        </div>
+    </header>
+
+
+
+
+
+
+
+
+
+
+
+
+    <main>
+
+        <section class="hero-section">
+            <div class="hero-section">
+                <div class="hero-content">
+                    <h1>Blurryface: A jornada interna de Tyler Joseph</h1>
+                    <p class="subtitle">Ansiedade, luta e identidade através da música</p>
+                </div>
+
+                <img class="hero-img" src="imagens/clancy.jpg" alt="Capa do álbum" class="background" />
+                <div class="overlay"></div>
+            </div>
+        </section>
+
+        <section class="album-tabs">
+            <div class="tab-buttons">
+                <button class="tab-button active" data-tab="overview">Visão Geral</button>
+                <button class="tab-button" data-tab="tracks">Faixas</button>
+                <button class="tab-button" data-tab="legacy">Legado</button>
+            </div>
+
+            <div class="tab-content active" id="overview">
+                <div class="album-overview">
+                    <div class="album-image">
+                        <a href="https://open.spotify.com/album/3cQO7jp5S9qLBoIVtbkSM1?si=v2j1OmakTpiCCMiAW1pxIg">
+                             <img src="imagens/blurryfacecapa.png" alt="Capa do álbum Blurryface" />
+                        </a>
+                       
+                    </div>
+                    <div class="album-text">
+                        <p>
+                        <p>
+                            Lançado em 2015, <strong>Blurryface</strong> é o quarto álbum de estúdio da banda americana
+                            Twenty One Pilots.
+                            Ele explora temas profundos de ansiedade, identidade e vulnerabilidade, representados pelo
+                            personagem Blurryface,
+                            que simboliza as inseguranças internas e os medos que todos enfrentamos.
+                        </p>
+                        <p>
+                            A produção mistura gêneros como pop, rock alternativo, rap e reggae, criando um som único e
+                            moderno, que cativou milhões
+                            de fãs ao redor do mundo. Cada faixa revela uma camada do conflito interno do personagem,
+                            alternando entre momentos
+                            sombrios e esperançoso otimismo.
+                        </p>
+                        <p>
+                            Visualmente, o álbum se destaca pela paleta em preto, vermelho e branco, simbolizando o
+                            contraste entre força e fragilidade.
+                            A iconografia e os visuais associados à era Blurryface são parte fundamental da experiência
+                            imersiva da banda.
+                        </p>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-content" id="tracks">
+                <section class="album-tracks">
+                    <div class="carousel-container">
+                        <button class="carousel-btn prev-btn" aria-label="Anterior">&#10094;</button>
+                        <div class="carousel-track-container">
+                            <ul class="carousel-track">
+
+
+                                <li class="carousel-slide current-slide">
+                                    <h3>HeavyDirtySoul</h3>
+                                    <p>
+                                        A primeira faixa do álbum começa com um grito de socorro: <em>"Can you save
+                                            my heavy dirty soul?"</em>.
+                                        Tyler implora por ajuda para livrar-se das “infestações mentais” —
+                                        pensamentos nocivos que consomem sua identidade.
+                                        A música termina abruptamente com sons distorcidos, simbolizando o momento
+                                        em que Blurryface domina seu pensamento.
+                                        É o anúncio de uma guerra interna iminente.
+                                    </p>
+
+                                    <div class="spotify-embed">
+                                        <iframe style="border-radius:12px"
+                                            src="https://open.spotify.com/embed/track/7i9763l5SSfOnqZ35VOcfy?utm_source=generator"
+                                            width="100%" height="352" frameBorder="0" allowfullscreen=""
+                                            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                                            loading="lazy"></iframe>
+                                    </div>
+                                </li>
+                                <li class="carousel-slide current-slide">
+                                    <h3>Stressed Out</h3>
+                                    <p>
+                                        Nesta faixa, ouvimos claramente a voz de Blurryface, que incentiva Tyler a se
+                                        preocupar com dinheiro,
+                                        fama e aceitação. O contraste aparece quando Tyler deseja retornar à infância,
+                                        antes
+                                        da depressão e
+                                        responsabilidades, quando o medo ainda não o controlava. É nesse conflito que
+                                        Blurry
+                                        começa a se
+                                        estabelecer como uma presença dominante, mas também contestada.
+                                    </p>
+                                    <div class="spotify-embed">
+                                        <iframe style="border-radius:12px"
+                                            src="https://open.spotify.com/embed/track/3CRDbSIZ4r5MsZ0YwxuEkn?utm_source=generator"
+                                            width="100%" height="352" frameBorder="0" allowfullscreen=""
+                                            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                                            loading="lazy"></iframe>
+
+                                    </div>
+
+                                </li>
+
+                                <li class="carousel-slide">
+                                    <h3>Ride</h3>
+                                    <p>
+                                        “Ride” revela a luta entre pensar demais e agir. Tyler canta sobre refletir
+                                        constantemente sobre a
+                                        morte, com frases como <em>“I think about the end too much”</em>. Aqui,
+                                        Blurryface
+                                        lança uma pergunta
+                                        provocadora: <strong>“Who would you live for, who would you die for, and
+                                            would
+                                            you
+                                            ever kill?”</strong>.
+                                        Essa questão ecoa ao longo do álbum, testando os valores de Tyler e sua
+                                        conexão
+                                        com
+                                        as pessoas.
+                                    </p>
+                                    <div class="spotify-embed">
+                                        <iframe style="border-radius:12px"
+                                            src="https://open.spotify.com/embed/track/2Z8WuEywRWYTKe1NybPQEW?utm_source=generator"
+                                            width="100%" height="352" frameBorder="0" allowfullscreen=""
+                                            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                                            loading="lazy"></iframe>
+
+                                    </div>
+
+                                </li>
+
+                                <li class="carousel-slide">
+                                    <h3>Fairly Local</h3>
+                                    <p>
+                                        “Fairly Local” é uma conversa direta com Blurryface. Tyler se reconhece como
+                                        “estranho” e fora do padrão
+                                        da indústria. Ele desafia Blurry ao afirmar que não será controlado e que
+                                        seu
+                                        propósito vai além da
+                                        fama: ele escreve músicas para salvar vidas. Mas o tom é sombrio — Blurry
+                                        ainda
+                                        está
+                                        presente,
+                                        observando, pronto para contra-atacar.
+                                    </p>
+                                    <div class="spotify-embed">
+                                        <iframe style="border-radius:12px"
+                                            src="https://open.spotify.com/embed/track/1s9xuJxhYM0LdVqksjegcg?utm_source=generator"
+                                            width="100%" height="352" frameBorder="0" allowfullscreen=""
+                                            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                                            loading="lazy"></iframe>
+
+                                    </div>
+                                </li>
+
+                                <li class="carousel-slide">
+                                    <h3>Tear In My Heart</h3>
+                                    <p>
+                                        Após tantas faixas de conflito, “Tear In My Heart” apresenta um ponto de
+                                        luz:
+                                        Jenna,
+                                        esposa de Tyler, é
+                                        apresentada como sua âncora emocional. Ele canta que ela é a única por quem
+                                        ele
+                                        sangraria — ou seja,
+                                        enfrentaria dor, mas também se sentiria vivo. É a única faixa do álbum onde
+                                        Blurry
+                                        não tem espaço;
+                                        ela representa a cura e a verdade.
+                                    </p>
+                                    <div class="spotify-embed">
+                                        <iframe style="border-radius:12px"
+                                            src="https://open.spotify.com/embed/track/3bnVBN67NBEzedqQuWrpP4?utm_source=generator"
+                                            width="100%" height="352" frameBorder="0" allowfullscreen=""
+                                            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                                            loading="lazy"></iframe>
+
+                                    </div>
+                                </li>
+
+                                <li class="carousel-slide">
+                                    <h3>Lane Boy</h3>
+                                    <p>
+                                        Aqui, Tyler critica abertamente as expectativas da indústria musical. Ele
+                                        rejeita
+                                        seguir fórmulas
+                                        comerciais e reafirma que suas músicas são para os fãs. Blurryface tenta
+                                        moldá-lo
+                                        conforme o mercado,
+                                        mas Tyler se recusa. A faixa é um ato de rebeldia — e resistência criativa.
+                                    </p>
+                                    <div class="spotify-embed">
+                                        <iframe style="border-radius:12px"
+                                            src="https://open.spotify.com/embed/track/2P61EK6DMGyVyssLWS4fKy?utm_source=generator"
+                                            width="100%" height="352" frameBorder="0" allowfullscreen=""
+                                            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                                            loading="lazy"></iframe>
+
+                                    </div>
+                                </li>
+
+                                <li class="carousel-slide">
+                                    <h3>The Judge</h3>
+                                    <p>
+                                        Nesta faixa, Tyler lida com sentimentos de culpa, julgamento e medo de
+                                        punição.
+                                        Ele
+                                        clama por ajuda a uma
+                                        entidade superior — o “juiz” — e revela sua luta por perdão e por redenção.
+                                        Blurryface aparece nas dúvidas
+                                        e na sensação constante de inadequação.
+                                    </p>
+                                    <div class="spotify-embed">
+                                        <iframe style="border-radius:12px"
+                                            src="https://open.spotify.com/embed/track/1lguQJjlNrIOoOylYVZN3M?utm_source=generator"
+                                            width="100%" height="352" frameBorder="0" allowfullscreen=""
+                                            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                                            loading="lazy"></iframe>
+
+                                    </div>
+                                </li>
+
+                                <li class="carousel-slide">
+                                    <h3>Doubt</h3>
+                                    <p>
+                                        “Doubt” expõe o medo de não ser lembrado e de desaparecer. Tyler canta
+                                        “Don't
+                                        forget
+                                        about me” como um
+                                        apelo direto ao ouvinte. Blurryface se alimenta dessa insegurança,
+                                        sussurrando
+                                        que
+                                        Tyler pode ser deixado
+                                        para trás. Ainda assim, a música revela o desejo profundo de conexão.
+                                    </p>
+                                    <div class="spotify-embed">
+                                        <iframe style="border-radius:12px"
+                                            src="https://open.spotify.com/embed/track/57yL3161hUMuw06zzzUCHi?utm_source=generator"
+                                            width="100%" height="352" frameBorder="0" allowfullscreen=""
+                                            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                                            loading="lazy"></iframe>
+                                    </div>
+                                </li>
+
+                                <li class="carousel-slide">
+                                    <h3>Polarize</h3>
+                                    <p>
+                                        “Polarize” representa um esforço consciente de Tyler para separar o bem e o
+                                        mal
+                                        dentro de si. A canção é
+                                        um pedido de ajuda para “dividir” sua mente e isolar a escuridão. Blurryface
+                                        é
+                                        confrontado diretamente,
+                                        e a esperança se manifesta na tentativa de clareza.
+                                    </p>
+                                    <div class="spotify-embed">
+                                        <iframe style="border-radius:12px"
+                                            src="https://open.spotify.com/embed/track/6GmkJJMe9U1tEcrJ3Hq3A1?utm_source=generator"
+                                            width="100%" height="352" frameBorder="0" allowfullscreen=""
+                                            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                                            loading="lazy"></iframe>
+                                    </div>
+                                </li>
+
+                                <li class="carousel-slide">
+                                    <h3>Message Man</h3>
+                                    <p>
+                                        Em “Message Man”, Tyler adverte para não interpretarem suas letras
+                                        literalmente.
+                                        Ele
+                                        é um mensageiro,
+                                        mas a mensagem tem múltiplas camadas. Blurryface é o símbolo do que está
+                                        oculto
+                                        — a
+                                        parte que não pode ser
+                                        decifrada tão facilmente.
+                                    </p>
+                                    <div class="spotify-embed">
+                                        <iframe style="border-radius:12px"
+                                            src="https://open.spotify.com/embed/track/4Oyl6oYSNeeZZP0OAxPVaU?utm_source=generator"
+                                            width="100%" height="352" frameBorder="0" allowfullscreen=""
+                                            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                                            loading="lazy"></iframe>
+                                    </div>
+                                </li>
+
+                                <li class="carousel-slide">
+                                    <h3>Hometown</h3>
+                                    <p>
+                                        “Hometown” lida com raízes, pertencimento e a dor que pode existir mesmo nos
+                                        lugares
+                                        familiares.
+                                        A cidade natal de Tyler é descrita como um local sombrio, onde a presença de
+                                        Blurryface também é sentida.
+                                        Ele mostra que os fantasmas emocionais não estão apenas dentro — mas também
+                                        ao
+                                        redor.
+                                    </p>
+                                    <div class="spotify-embed">
+                                        <iframe style="border-radius:12px"
+                                            src="https://open.spotify.com/embed/track/40sRwFjfrRnaTdYPJIg4CP?utm_source=generator"
+                                            width="100%" height="352" frameBorder="0" allowfullscreen=""
+                                            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                                            loading="lazy"></iframe>
+                                    </div>
+                                </li>
+
+                                <li class="carousel-slide">
+                                    <h3>Not Today</h3>
+                                    <p>
+                                        “Not Today” é uma das faixas mais sarcásticas do álbum. Tyler finge
+                                        otimismo,
+                                        mas
+                                        por trás do tom leve
+                                        há desespero. Ele desafia Blurryface dizendo “Hoje não” — uma recusa em se
+                                        entregar,
+                                        mesmo que temporária.
+                                        É um respiro de resistência em meio à escuridão.
+                                    </p>
+                                    <div class="spotify-embed">
+                                        <iframe style="border-radius:12px"
+                                            src="https://open.spotify.com/embed/track/7qxjGHW485TL8ciwkHD5MK?utm_source=generator"
+                                            width="100%" height="352" frameBorder="0" allowfullscreen=""
+                                            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                                            loading="lazy"></iframe>
+                                    </div>
+                                </li>
+
+                                <li class="carousel-slide">
+                                    <h3>Goner</h3>
+                                    <p>
+                                        A última faixa é o desfecho emocional do álbum. Tyler canta “I've got two
+                                        faces
+                                        /
+                                        Blurry's the one I'm
+                                        not”, reconhecendo a dualidade que o consome. Ele se declara um “goner”,
+                                        alguém
+                                        que
+                                        sente que já perdeu
+                                        a luta. No entanto, o grito final carrega esperança — ele ainda luta. O fim
+                                        não
+                                        é o
+                                        fim, mas um ponto de
+                                        virada.
+                                    </p>
+                                    <div class="spotify-embed">
+                                        <iframe style="border-radius:12px"
+                                            src="https://open.spotify.com/embed/track/5P3yUXUC9rZPJPNmYGKEAz?utm_source=generator"
+                                            width="100%" height="352" frameBorder="0" allowfullscreen=""
+                                            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                                            loading="lazy"></iframe>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <button class="carousel-btn next-btn" aria-label="Próximo">&#10095;</button>
+                    </div>
+                </section>
+            </div>
+
+            <div class="tab-content" id="legacy">
+                <section class="album-legacy">
+                    <h2 class="legacy-title">Lore</h2>
+                    <div class="legacy-content">
+                        <div class="legacy-text">
+                            <p>
+                                <strong>Blurryface</strong> não é apenas um álbum — é uma experiência narrativa, visual
+                                e
+                                emocional. É o começo de uma história que se estende por álbuns seguintes como
+                                <em>Trench</em> e <em>Scaled and Icy</em>, aprofundando a luta de Tyler contra forças
+                                internas
+                                e externas.
+                            </p>
+                            <p>
+                                Blurryface é a representação viva da dúvida humana, mas também da resistência. Ele
+                                mostrou ao
+                                mundo que a vulnerabilidade pode ser expressa com arte, coragem e conexão verdadeira com
+                                os fãs.
+                            </p>
+                        </div>
+                        <div class="legacy-image">
+                            <img src="imagens/blurryfaceera.jpg" alt="Banda durante turnê Blurryface" />
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </section>
+    </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <footer>
+        <div id="footer_items">
+            <span id="copyright">
+                &copy; 2025 twentyonepilotsClique
+            </span>
+
+            <div class="social-media-buttons">
+                <a href="https://open.spotify.com/artist/3YQKmKGau1PzlVlkL1iodx" target="_blank" rel="noopener">
+                    <i class="fa-brands fa-spotify"></i>
+                </a>
+                <a href="https://www.instagram.com/twentyonepilots" target="_blank" rel="noopener">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+            </div>
+
+            
+        </div>
+    </footer>
+
+    <div id="cookie-banner" style="display: none;">
+        <div id="cookie-content">
+            <p>Este site utiliza cookies para melhorar a sua experiência. Ao continuar navegando, você concorda com
+                o
+                uso de cookies.</p>
+            <button id="accept-cookies">Aceitar</button>
+            <button id="deny-cookies">Negar</button>
+        </div>
+    </div>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="script.js"></script>
+    <script src="script2.js"></script>
+    <script src="cart.js"></script>
+
+</body>
+
+</html>

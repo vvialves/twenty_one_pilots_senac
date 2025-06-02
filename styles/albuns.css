@@ -1,0 +1,112 @@
+#albums {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start; /* Alinha no topo */
+    min-height: 100vh;
+    background-color: #000;
+    color: #fff;
+    padding-top: 40px; /* Aproxima do topo */
+}
+
+/* Título principal da seção */
+.section-title {
+    font-size: 3rem; /* Tamanho maior */
+    margin-bottom: 8px;
+    color: #e50914;
+}
+
+/* Subtítulo */
+.section-subtitle {
+    font-size: 1.5rem;
+    margin-bottom: 32px;
+    color: #ccc;
+    text-align: center;
+}
+#album-list {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    margin-top: 32px;
+    flex-wrap: wrap;
+}
+.album img {
+  border-radius: 12px;
+  box-shadow: 0 0 5px #ff0000;
+}
+.album {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    gap: 18px;
+    width: 300px;
+    padding: 20px;
+    background-color: #0f0f0f; /* cinza muito escuro */
+    box-shadow: 0 0 12px 4px rgba(255, 0, 0, 0.5); /* sombra vermelha */
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.album:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px 6px rgba(255, 0, 0, 0.8);
+}
+
+.album .btn-default {
+    background-color: #e50914; /* vermelho forte */
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 6px;
+}
+
+.album .btn-default:hover {
+    background-color: #b0060f; /* vermelho mais escuro no hover */
+}
+
+.album-release-date {
+    color: #fff; /* texto branco */
+    font-style: italic;
+}
+
+.album-title {
+    color: #fff; /* título branco */
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.album-button {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+}
+
+@media screen and (max-width: 1400px) {
+    #album-list {
+        justify-content: center;
+        gap: 50px;
+    }
+
+    .album {
+        width: calc(50% - 50px);
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .album {
+        width: calc(100% - 50px);
+    }
+
+    #albums .section-subtitle {
+        text-align: center;
+    }
+}
