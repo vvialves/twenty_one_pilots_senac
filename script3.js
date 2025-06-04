@@ -45,11 +45,10 @@ buttons.forEach(button => {
     buttons.forEach(btn => btn.classList.remove('active'));
     contents.forEach(content => content.classList.remove('active'));
 
-    // Adiciona active no clicado e no conteúdo correspondente
     button.classList.add('active');
     document.getElementById(button.dataset.tab).classList.add('active');
 
-    // Scroll suave até a seção
+  
     window.scrollTo({
       top: document.querySelector('.album-tabs').offsetTop - 60,
       behavior: 'smooth'
@@ -126,7 +125,7 @@ class Petal {
     this.rotationSpeed = (Math.random() - 0.5) * 0.01;
     this.alpha = 0.5 + Math.random() * 0.5;
     this.swing = Math.random() * 100;
-    this.hue = 45 + Math.random() * 5; // amarelo mais vivo
+    this.hue = 45 + Math.random() * 5; 
   }
 
   update(frame) {
@@ -149,7 +148,7 @@ class Petal {
     const gradient = ctx.createRadialGradient(0, 0, s * 0.2, 0, 0, s);
     gradient.addColorStop(0, `hsla(${this.hue}, 85%, 60%, ${this.alpha})`);
     gradient.addColorStop(0.6, `hsla(${this.hue}, 90%, 50%, ${this.alpha * 0.9})`);
-    gradient.addColorStop(1, `hsla(${this.hue}, 95%, 40%, ${this.alpha * 0.3})`); // ponta menos transparente
+    gradient.addColorStop(1, `hsla(${this.hue}, 95%, 40%, ${this.alpha * 0.3})`);
 
     ctx.fillStyle = gradient;
 
