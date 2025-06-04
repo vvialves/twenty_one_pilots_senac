@@ -1,6 +1,6 @@
 #album-list {
   margin-bottom: 0;
-  /* remove qualquer espaço extra entre os álbuns e o próximo bloco */
+
 }
 
 #about-band {
@@ -48,7 +48,7 @@
 }
 
 
-/* Responsividade */
+
 @media (max-width: 900px) {
   #about-band {
     padding: 15px 20px 30px;
@@ -115,7 +115,7 @@
   text-align: center;
 }
 
-/* Responsivo para telas menores */
+
 @media (max-width: 900px) {
   #albums-info {
     flex-direction: column;
@@ -142,47 +142,6 @@
   object-fit: cover;
 }
 
-/* Tema escuro (default) */
-body.dark-theme {
-  background-color: #000;
-  color: #fff9ea;
-}
-
-/* Tema claro */
-body.light-theme {
-  background-color: #fff9ea;
-  color: #392620;
-}
-
-/* Ajustes para links no tema claro */
-body.light-theme a {
-  color: #392620;
-}
-
-body.light-theme a:hover {
-  color: #c9002b;
-}
-
-#controls {
-  display: flex;
-  gap: 10px;
-}
-
-#controls .btn-default {
-  background-color: #000;
-  border: 2px solid #c9002b;
-  color: #fff9ea;
-  padding: 6px 12px;
-  cursor: pointer;
-  font-weight: bold;
-  transition: background-color 0.3s ease, color 0.3s ease;
-  border-radius: 4px;
-}
-
-#controls .btn-default:hover {
-  background-color: #c9002b;
-  color: #000;
-}
 
 * {
   margin: 0;
@@ -498,7 +457,7 @@ footer {
   /* Aproxima do topo */
 }
 
-/* Título principal da seção */
+
 .section-title {
   font-size: 3rem;
   /* Tamanho maior */
@@ -506,7 +465,6 @@ footer {
   color: #e50914;
 }
 
-/* Subtítulo */
 .section-subtitle {
   font-size: 1.5rem;
   margin-bottom: 32px;
@@ -642,7 +600,7 @@ footer {
 
 .album2 .btn-default:hover {
   background-color: #b0060f;
-  /* vermelho mais escuro no hover */
+ 
 }
 
 .album2-release-date {
@@ -761,7 +719,7 @@ footer {
   box-shadow: 0 4px 18px rgba(229, 9, 20, 0.6);
 }
 
-/* Botões modernos */
+
 .carousel-button {
   position: absolute;
   top: 50%;
@@ -794,7 +752,7 @@ footer {
   right: 12px;
 }
 
-/* Responsividade */
+
 @media (max-width: 900px) {
   .band-container {
     flex-direction: column;
