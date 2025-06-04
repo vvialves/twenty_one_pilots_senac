@@ -101,7 +101,7 @@ header {
     padding: 8px 16px;
 }
 
-/* Submenus escondidos */
+
 #mobile_nav_list .submenu {
     max-height: 0;
     overflow: hidden;
@@ -111,19 +111,18 @@ header {
     margin: 0;
 }
 
-/* Submenus abertos */
 #mobile_nav_list .has-submenu.open>.submenu {
     max-height: 500px;
     /* suficientemente grande para o conteúdo */
 }
 
-/* Seta na aba que abre submenu */
+
 .submenu-toggle::after {
     content: " ▼";
     font-size: 0.8rem;
 }
 
-/* Responsividade */
+
 @media screen and (max-width: 1170px) {
     #nav_list {
         display: none;
@@ -279,7 +278,6 @@ body {
   color: #00ffc3;
 }
 
-/* Animations */
 @keyframes fadeIn {
   from {
     opacity: 0;
@@ -302,7 +300,6 @@ body {
   }
 }
 
-/* Scroll reveal on sections */
 .lore-paragraph.reveal {
   opacity: 0;
   transform: translateY(40px);
@@ -314,7 +311,6 @@ body {
   transform: translateY(0);
 }
 
-/* Responsividade */
 @media (max-width: 768px) {
   .hero-content h1 {
     font-size: 2rem;
