@@ -3,12 +3,12 @@ document.addEventListener('DOMContentLoaded', () => {
   const mobileMenu = document.getElementById('mobile_menu');
   const dropdowns = document.querySelectorAll('#mobile_nav_list .dropdown');
 
-  // Toggle menu mobile
+
   mobileBtn.addEventListener('click', () => {
     mobileMenu.classList.toggle('active');
   });
 
-  // Toggle dropdown mobile ao clicar
+
   dropdowns.forEach(drop => {
     const btn = drop.querySelector('a.dropbtn');
     btn.addEventListener('click', e => {
@@ -19,59 +19,9 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 
-// Traduções em PT e EN (exemplo)
-const translations = {
-  pt: {
-    albums_title: "Álbuns",
-    albums_subtitle: "Twenty One Pilots Lore",
-    band_description: "Twenty one pilots é uma banda de indie rock criada em 2009 em Columbus, Ohio...",
-    // ...adicione todas as chaves usadas no data-i18n
-  },
-  en: {
-    albums_title: "Albums",
-    albums_subtitle: "Twenty One Pilots Lore",
-    band_description: "Twenty One Pilots is an indie rock band formed in 2009 in Columbus, Ohio...",
-    // ...idem
-  }
-};
-
-const btnLang = document.getElementById("toggle-language");
-const btnTheme = document.getElementById("toggle-theme");
-
-// Função para atualizar o texto do site de acordo com o idioma
-function updateLanguage(lang) {
-  document.querySelectorAll("[data-i18n]").forEach(el => {
-    const key = el.getAttribute("data-i18n");
-    el.textContent = translations[lang][key] || el.textContent;
-  });
-  btnLang.textContent = lang === "pt" ? "EN" : "PT";
-  localStorage.setItem("siteLanguage", lang);
-}
-
-// Alternar tema claro/escuro
-function toggleTheme() {
-  const current = localStorage.getItem("siteTheme") || "dark";
-  const next = current === "dark" ? "light" : "dark";
-  applyTheme(next);
-}
-
-// Aplica o tema ao body
-function applyTheme(theme) {
-  const body = document.body;
-  if (theme === "dark") {
-    body.classList.add("dark-theme");
-    body.classList.remove("light-theme");
-    btnTheme.textContent = "Light";
-  } else {
-    body.classList.add("light-theme");
-    body.classList.remove("dark-theme");
-    btnTheme.textContent = "Dark";
-  }
-  localStorage.setItem("siteTheme", theme);
-}
 
 
-// Exemplo de funcionalidade: alerta ao clicar em uma imagem da galeria
+
 document.addEventListener('DOMContentLoaded', () => {
   const galleryImages = document.querySelectorAll('.gallery-images img');
 
@@ -100,7 +50,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 
-// Ativar animação fade-in + slide para os flex-rows ao scroll
+
 const flexRows = document.querySelectorAll('.flex-row');
 
 function revealOnScroll() {
