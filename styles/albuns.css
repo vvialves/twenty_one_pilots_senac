@@ -2,21 +2,21 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: flex-start; /* Alinha no topo */
+    justify-content: flex-start; 
     min-height: 100vh;
     background-color: #000;
     color: #fff;
-    padding-top: 40px; /* Aproxima do topo */
+    padding-top: 40px; 
 }
 
-/* Título principal da seção */
+
 .section-title {
-    font-size: 3rem; /* Tamanho maior */
+    font-size: 3rem; 
     margin-bottom: 8px;
     color: #e50914;
 }
 
-/* Subtítulo */
+
 .section-subtitle {
     font-size: 1.5rem;
     margin-bottom: 32px;
@@ -43,8 +43,8 @@
     gap: 18px;
     width: 300px;
     padding: 20px;
-    background-color: #0f0f0f; /* cinza muito escuro */
-    box-shadow: 0 0 12px 4px rgba(255, 0, 0, 0.5); /* sombra vermelha */
+    background-color: #0f0f0f;
+    box-shadow: 0 0 12px 4px rgba(255, 0, 0, 0.5); 
     position: relative;
     overflow: hidden;
     text-align: center;
@@ -57,7 +57,7 @@
 }
 
 .album .btn-default {
-    background-color: #e50914; /* vermelho forte */
+    background-color: #e50914; 
     border: none;
     padding: 10px 20px;
     font-size: 16px;
@@ -69,16 +69,16 @@
 }
 
 .album .btn-default:hover {
-    background-color: #b0060f; /* vermelho mais escuro no hover */
+    background-color: #b0060f; 
 }
 
 .album-release-date {
-    color: #fff; /* texto branco */
+    color: #fff; 
     font-style: italic;
 }
 
 .album-title {
-    color: #fff; /* título branco */
+    color: #fff; 
     font-weight: 700;
     font-size: 1.5rem;
 }
