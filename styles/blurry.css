@@ -71,7 +71,7 @@ body {
   text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
 }
 
-/* Animação glow no título */
+
 @keyframes glow {
 
   0%,
@@ -183,7 +183,7 @@ body {
   font-size: 1.15rem;
 }
 
-/* Responsividade */
+
 @media (max-width: 768px) {
   .tab-buttons {
     flex-direction: column;
@@ -252,7 +252,6 @@ body {
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
 }
 
-/* Layout lado a lado no desktop */
 @media (min-width: 768px) {
 
   .tracks-content,
@@ -277,7 +276,7 @@ body {
   object-fit: cover;
   z-index: 0;
   opacity: 1;
-  /* ou ajuste conforme necessário */
+
 }
 
 
@@ -333,7 +332,6 @@ body {
   display: block;
 }
 
-/* ALBUM SECTIONS */
 
 .album-overview, .album-tracks, .album-legacy {
   color: #ccc;
@@ -363,7 +361,7 @@ body {
   box-shadow: 0 0 35px #ff3b3b88;
 }
 
-/* TRACKS */
+
 
 .album-tracks .track {
   background: #1a1a1a;
@@ -404,7 +402,6 @@ body {
   box-shadow: 0 0 40px #ff3b3b88;
 }
 
-/* LEGACY */
 
 
 
@@ -417,7 +414,6 @@ body {
 }
 
 
-/*carrossel*/
 .carousel-container {
   position: relative;
   width: 90%;
