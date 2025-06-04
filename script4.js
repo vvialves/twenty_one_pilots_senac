@@ -45,11 +45,10 @@ buttons.forEach(button => {
     buttons.forEach(btn => btn.classList.remove('active'));
     contents.forEach(content => content.classList.remove('active'));
 
-    // Adiciona active no clicado e no conteúdo correspondente
     button.classList.add('active');
     document.getElementById(button.dataset.tab).classList.add('active');
 
-    // Scroll suave até a seção
+   
     window.scrollTo({
       top: document.querySelector('.album-tabs').offsetTop - 60,
       behavior: 'smooth'
