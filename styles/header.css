@@ -99,7 +99,7 @@
     padding: 8px 16px;
   }
 
-  /* Submenus escondidos */
+  
   #mobile_nav_list .submenu {
     max-height: 0;
     overflow: hidden;
@@ -109,18 +109,18 @@
     margin: 0;
   }
 
-  /* Submenus abertos */
+
   #mobile_nav_list .has-submenu.open > .submenu {
     max-height: 500px; /* suficientemente grande para o conteúdo */
   }
 
-  /* Seta na aba que abre submenu */
+
   .submenu-toggle::after {
     content: " ▼";
     font-size: 0.8rem;
   }
 
-  /* Responsividade */
+
   @media screen and (max-width: 1170px) {
     #nav_list {
       display: none;
