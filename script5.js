@@ -1,4 +1,4 @@
-// Animação ao rolar: revela os parágrafos gradualmente
+
 document.addEventListener('DOMContentLoaded', () => {
     const elements = document.querySelectorAll('.lore-paragraph.reveal');
 
@@ -34,12 +34,12 @@ document.addEventListener('DOMContentLoaded', () => {
     const mobileMenu = document.getElementById('mobile_menu');
     const dropdowns = document.querySelectorAll('#mobile_nav_list .dropdown');
 
-    // Toggle menu mobile
+   
     mobileBtn.addEventListener('click', () => {
         mobileMenu.classList.toggle('active');
     });
 
-    // Toggle dropdown mobile ao clicar
+  
     dropdowns.forEach(drop => {
         const btn = drop.querySelector('a.dropbtn');
         btn.addEventListener('click', e => {
