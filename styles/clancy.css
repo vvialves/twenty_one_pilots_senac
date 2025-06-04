@@ -121,7 +121,7 @@ header {
     color: #c9002b;
 }
 
-/* Ocultar no responsivo */
+
 @media screen and (max-width: 768px) {
     .social-media-buttons {
         display: none;
@@ -266,7 +266,7 @@ body {
     text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
 }
 
-/* Animação glow no título */
+
 @keyframes glow {
 
     0%,
@@ -287,7 +287,7 @@ body {
 }
 
 
-/* Animação de fade e subida */
+
 @keyframes fadeInUp {
   from {
     opacity: 0;
@@ -381,7 +381,7 @@ body {
   }
 }
 
-/* Imagem */
+
 .legacy-image img {
   display: block;
   max-width: 300px;
@@ -397,7 +397,6 @@ body {
   box-shadow: 0 0 35px #fde51f;
 }
 
-/* Responsividade */
 @media (max-width: 768px) {
   .tab-buttons {
     flex-direction: column;
@@ -461,7 +460,6 @@ body {
   box-shadow: 0 0 15px #fde51f;
 }
 
-/* Layout lado a lado no desktop */
 @media (min-width: 768px) {
 
   .tracks-content {
@@ -540,7 +538,7 @@ body {
   display: block;
 }
 
-/* ALBUM SECTIONS */
+
 
 .album-overview, .album-tracks, .album-legacy {
   color: #f5f2ea;
@@ -570,7 +568,7 @@ body {
   box-shadow: 0 0 35px #ff3b3b;
 }
 
-/* TRACKS */
+
 
 .album-tracks .track {
   background: #ff3b3b;
@@ -612,7 +610,6 @@ body {
   box-shadow: 0 0 40px #fde51f;
 }
 
-/* LEGACY */
 
 
 
@@ -627,7 +624,7 @@ body {
 
 
 
-/*carrossel*/
+
 .carousel-container {
   position: relative;
   width: 90%;
