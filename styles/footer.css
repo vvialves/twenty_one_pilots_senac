@@ -1,6 +1,6 @@
 footer {
-  background-color: #000; /* preto */
-  border-top: 2px solid #c9002b; /* borda neon vermelha */
+  background-color: #000; 
+  border-top: 2px solid #c9002b; 
   padding-top: 10px;
 }
 
@@ -16,7 +16,7 @@ footer {
 }
 
 #copyright {
-  color: #fff9ea; /* bege claro */
+  color: #fff9ea; 
   font-weight: 600;
   letter-spacing: 1px;
 }
